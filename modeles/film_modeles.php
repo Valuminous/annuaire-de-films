@@ -55,19 +55,17 @@ function bdd_filmGenre($id = 0, $order) {
     global $bdd;
 
     $request = "SELECT f.id, f.titre, f.description, f.annee_de_sortie,
-    (SELECT GROUP_CONCAT(DISTINCT g.genre SEPARATOR ',')
+    (SELECT GROUP_CONCAT(DISTINCT g.genre SEPARATOR ', ')
                  FROM tbl_genre g inner JOIN tbl_genre_films as gf ON g.id = gf.id_genres
                  WHERE gf.id_films = f.id) AS genres,
     
-    (SELECT GROUP_CONCAT(DISTINCT g.id SEPARATOR ',')
+    (SELECT GROUP_CONCAT(DISTINCT g.id SEPARATOR ', ')
                 FROM tbl_genre g inner JOIN tbl_genre_films as gf ON g.id = gf.id_genres
                 WHERE gf.id_films = f.id) AS gr 
     
     from tbl_films as f 
     inner join tbl_genre_films as gf on gf.id_films = f.id 
     inner join tbl_genre as g on  g.id = gf.id_genres 
-    inner join tbl_realisateurs_films as rf on rf.id_realisateurs = f.id_realisateurs 
-    inner join tbl_realisateurs as r on r.id_realisateur = rf.id_realisateurs 
     
     where g.id = :id" ;
     $request .= ($order === 'ASC')? " group by f.id

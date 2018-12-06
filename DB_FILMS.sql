@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Client :  localhost:3306
--- Généré le :  Mar 04 Décembre 2018 à 15:04
+-- Généré le :  Mer 05 Décembre 2018 à 23:00
 -- Version du serveur :  10.3.11-MariaDB-1:10.3.11+maria~bionic
 -- Version de PHP :  7.2.10-0ubuntu0.18.04.1
 
@@ -86,7 +86,20 @@ INSERT INTO `tbl_acteurs` (`id_acteur`, `prenom_acteur`, `nom_acteur`, `bio_acte
 (41, 'Liam', 'Neeson', 'Liam Neeson, de son vrai nom William John Neeson est un acteur britanno-américain. Il est connu pour ses rôles d\'hommes courageux et révolutionnaires dans des films comme La Liste de Schindler, Michael Collins et Rob Roy ainsi que pour sa participation à des grosses productions telles que Star Wars, épisode I : La Menace fantôme, Taken et Batman Begins. Il a été dirigé par de grands réalisateurs comme George Lucas, Christopher Nolan, Steven Spielberg, Woody Allen, Ridley Scott ou encore Martin Scorsese.', '7', 'juin', '1952', 'Ballymena (Irlande du Nord)', 'Britanno-américaine'),
 (42, 'Ben', 'Kingsley', 'Ben Kingsley est un acteur britannique d\'ascendance indienne. Ben Kingsley est né en Angleterre, d\'un père médecin, Rahimtulla Harji Bhanji, d\'ascendance gujarati mais né au Kenya (ses grands-parents paternels s\'étant préalablement installés à Zanzibar), tandis que sa mère Anna Lyna Mary (née Goodman) était une actrice et modèle anglaise.\n\nIl s\'intéresse très tôt au théâtre et devient pensionnaire de la Royal Shakespeare Company. Il joue entre autres Othello, Hamlet et The Merry Wives of Windsor de Shakespeare, ou La Cerisaie de Tchekhov. Puis en 1972, il débute au cinéma.', '31', 'décembre', '1943', 'Snainton (Yorkshire)', 'Britannique'),
 (43, 'Ralph', 'Fiennes', 'Ralph Fiennes (nom prononcé en anglais /faɪnz/) est un acteur, réalisateur et producteur de cinéma britannique et serbe. Il a joué dans une trentaine de films parmi lesquels La Liste de Schindler, Quiz Show, Le Patient anglais, Dragon Rouge, The Constant Gardener, la saga Harry Potter, The Reader, Skyfall, 007 Spectre. Ralph Fiennes est célèbre pour le rôle de Lord Voldemort qu\'il incarne dans la saga Harry Potter. Il a également prêté sa voix à des films d\'animation, comme Wallace et Gromit : Le Mystère du lapin-garou.\n\nDeux fois nommé aux Oscars, il est le seul acteur de théâtre à avoir remporté le Tony Award pour avoir joué Hamlet de Shakespeare à Broadway. Ralph Fiennes est aussi l\'un des ambassadeurs britanniques pour l\'Unicef2 et est membre du conseil de la Royal Academy of Dramatic Art3.\n\nIl est le frère de la réalisatrice Martha Fiennes, du compositeur Magnus Fiennes et de l\'acteur Joseph Fiennes.', '22 ', 'décembre', '1962', 'Ipswich (Suffolk)', 'Britannique et Serbe'),
-(44, 'Caroline', 'Goodall', 'Caroline Goodall est une actrice et scénariste anglaise. Elle a été nominée aux AFI Awards pour ses rôles dans la minisérie Cassidy de 1989 et dans le film Hotel Sorrento de 1995. Elle a également joué dans Hook (1991), Cliffhanger (1993), Schindler\'s List (1993), Disclosure (1994), White Squall (1996), The Princess Diaries (2001) et The Dressmaker (2015).', '13', 'novembre', '1959', 'Londres', 'Britannique');
+(44, 'Caroline', 'Goodall', 'Caroline Goodall est une actrice et scénariste anglaise. Elle a été nominée aux AFI Awards pour ses rôles dans la minisérie Cassidy de 1989 et dans le film Hotel Sorrento de 1995. Elle a également joué dans Hook (1991), Cliffhanger (1993), Schindler\'s List (1993), Disclosure (1994), White Squall (1996), The Princess Diaries (2001) et The Dressmaker (2015).', '13', 'novembre', '1959', 'Londres', 'Britannique'),
+(45, 'Rami', 'Malek', 'D\'origine égyptienne, Rami Said Malek grandit à Los Angeles avec son frère jumeau, Sami, avant de déménager dans l’Indiana pour suivre des études d’arts à l’université́ d’Evansville. Le comédien en herbe commence sa carrière dans de petits théâtres régionaux avant de retourner à L.A. où il décroche son premier rôle dans la série Gilmore Girls dès sa première audition. Cette même année 2004, il interprète l\'une des voix du jeu vidéo \"Halo 2\", puis obtient un rôle de prisonnier irakien dans la série Over There. On peut aussi l\'apercevoir dans Medium où il incarne un prisonnier schizophrène, mais c\'est grâce à Kenny, son premier véritable personnage récurrent, dans La Guerre à la maison, qu\'il se fait connaître du public et qu\'il fait découvrir ses talents de comique. ', '12', 'mai', '1981', 'Los Angeles', 'Américaine'),
+(46, 'Gwilym', 'Lee', 'Gwilym Lee est un acteur anglais. Il est connu pour ses rôles dans The Tourist (2010), Une chanson pour Jenny (2015), Jamestown (2017), Midsomer Murders et le guitariste Brian May dans le film biographique de Queen, Bohemian Rhapsody (2018). Il a trois frères et sœurs aînés: Geraint, Owen et Rhiannon. Quand il était jeune, la famille a déménagé à Sutton Coldfield à Birmingham. [1] Il a étudié la littérature anglaise à l\'Université de Cardiff et le théâtre à la Guildhall School of Music and Drama, où il a reçu la médaille d\'or du Guildhall en 2008. Lee vit actuellement à Londres.', '24', 'novembre', '1983', 'Bristol', 'Britannique'),
+(47, 'Lucy', 'Boynton', 'Lucy Boynton est née le 17 janvier 1994 à New York, États-Unis. Ses parents Graham Boynton et sa mère Adriaane Pielou sont écrivains pour les guides de voyage. Elle déménage à l\'âge de 5 ans, quand ses parents décident de revenir en Angleterre. Elle a une grande sœur, Emma Louise Boynton.', '17', 'janvier', '1994', 'New York', 'Américaine'),
+(48, 'Ben', 'Hardy', 'Ben Jones, plus connu sous son nom de scène Ben Hardy, est un acteur et mannequin britannique, né le 2 janvier 1991 à Bournemouth en Angleterre. Il est connu pour le rôle de Peter Beale dans le soap opéra de la BBC EastEnders. ', '2', 'janvier', '1991', 'Bournemouth (Dorset)', 'Britannique'),
+(49, 'Andréa ', 'Santamaria', '', '', '', '', '', ''),
+(50, 'Benjamin', 'Bratt', 'D\'origine péruvienne par sa mère, Benjamin Bratt fait ses études à San Francisco puis se lance dans une carrière artistique à la fin des années 80. Il débute sur petit écran en tenant la vedette de plusieurs séries policières - Knightwatch de 1988 à 1989, Brigade de choc à Las Vegas l\'année qui suit - puis apparaît pour la première fois au cinéma en 1991, dans le thriller One good cop, qui le voit côtoyer Michael Keaton. C\'est en 1993 que la carrière de Benjamin Bratt prend son envol, grâce au drame urbain/carcéral Les Princes de la ville, réalisé par Taylor Hackford et dans lequel il incarne un ancien membre de gang reconverti en policier coriace. Il enchaîne ensuite avec des rôles secondaires dans Demolition man (1994), Danger immédiat (id.) et La Rivière sauvage (1995).', '16', 'décembre', '1963', 'San Francisco (Californie)', 'Américaine'),
+(51, 'Ary', 'Abittan', 'De mère tunisienne et de père marocain, Ary Abittan naît à Paris mais grandit dans la ville de Sarcelles, où il se produit dès l\'année 1998 dans de petits spectacles, jusqu\'à ce qu\'il se fasse remarquer par un certain Eddy Marouani qui devient son imprésario. L\'apprenti humoriste profite de cette ouverture pour s\'imposer en première partie de spectacles portés par Gad Elmaleh ou Enrico Macias, et tient en 2007 la tête d\'affiche de plusieurs théâtres parisiens. \r\n\r\nCette même année, il joue l\'un des rôles principaux de la série Nos années pension, rôle qu\'il habitera pendant trois saisons. 2008 marque ses débuts sur le grand écran dans la comédie Tu peux garder un secret ? d\'Alexandre Arcady, qu\'il fait suivre avec Coco (2009), seconde réalisation de son ami Gad Elmaleh, et Tellement proches (id.), un film choral/familial réalisé par le tandem Olivier Nakache/Eric Toledano, où il côtoie Vincent Elbaz et Isabelle Carré. \r\n', '31', 'janvier', '1974', 'Paris', 'Française'),
+(52, 'Ryûnosuke', 'Kamiki', 'Ryūnosuke Kamiki (神木 隆之介, Kamiki Ryūnosuke?) est un acteur japonais.\r\n\r\nIl est spécialisé dans le doublage, notamment pour des films ou séries d\'animation japonais (Seiyū) mais aussi pour les versions doublées en japonais de films étrangers comme Kirikou et la Sorcière ou La Marche de l\'empereur.', '19', 'mai', '1993', 'Fujimi', 'Japonaise'),
+(53, 'Mone', 'kamishiraishi', 'Mone Kamishiraishi (白石 萌 [2] Kamishiraishi Mone est une actrice et chanteuse japonaise.\r\n\r\nKamishiraishi a passé sa première année à l\'université. Elle est représentée avec Toho Entertainment. Le label de musique de Kamishiraishi est Pony Canyon. Sa soeur est l\'actrice Moka Kamishiraishi.', '27', 'janvier', '1998', 'Kagoshima', 'Japonaise'),
+(54, 'Masami  ', 'Nagasawa', 'Masami Nagasawa débute en 2000 après avoir gagné un concours de beauté, apparaissant dans des films et drama, des publicités, et des magazines en tant que mannequin. Elle tourne son premier film en tête d\'affiche en 2003: Robokon. En 2006, elle est désignée « la plus populaire actrice » (du Japon) à la suite d\'un vote sur le site de l\'Oricon.\r\n\r\nEn 2006, elle chante le générique du drama Sailor Fuku to Kikanju dont elle est l\'héroïne, reprise de la chanson du drama original des années 1980 dont il est un remake. Elle est l\'une des célébrités nipponnes les plus demandées pour participer à des campagnes publicitaires.', '3', 'juin', '1987', 'Iwata (Shizuoka)', 'Japonaise'),
+(55, 'Marlon', 'Brando', 'A la suite de son renvoi d\'une école militaire, il intègre l\'Actor Studio de New York. Sous la direction de Lee Strasberg, il développe ses talents d\'acteur et devient un inconditionnel de la méthode de Konstantin Stanislavsky. Au départ, il joue énormément au théâtre mais refuse les propositions des studios hollywoodiens. En 1950, il interpréte un infirme de guerre dans C\'étaient des hommes. Signe de son perfectionnisme, il passe de nombreux mois dans un hôpital militaire pour rendre son interprétation convaincante.\r\n\r\nL\'adaptation pour le cinéma d\'Un tramway nommé désir (1951) par Elia Kazan lance sa carrière. Deux ans plus tard, il retrouve le réalisateur pour les besoins de Viva Zapata !. Ce cinéaste lui offre certains de ses meilleurs rôles comme dans Sur les quais (1954), drame pour lequel il remporte un Oscar. ', '3', 'avril', '1924', 'Los Angeles (Californie)', 'Américaine'),
+(56, 'Al', 'Pacino', 'Fils de Salvator Pacino tailleur de pierre et Rose Gerard sans profession, tous les deux originaires de la Sicile. Elevé par ses grands-parents maternels James et Kate Gerard. Alfred James Pacino collectionne depuis ses débuts les nominations aux Oscars, mais c\'est seulement en 1992 qu\'il obtient sa première statuette pour Le Temps d\'un week-end (adaptation du roman Parfum de femme de Giovanni Arpino). Vingt ans plus tôt, il connaissait sa première nomination pour son interprétation de Michael Corleone dans Le Parrain de Francis Ford Coppola. \r\n\r\nL\'acteur passe son enfance dans le Bronx. Envahi par la passion de la comédie, il entre à l\'âge de quatorze ans à la High School of Performing Arts de Manhattan, mais, sans diplôme, ni bagages culturels, il se retrouve en difficulté face aux méthodes utilisées. ', '25', 'avril', '1940', 'New York', 'Américaine'),
+(57, 'James', 'Caan', 'James Caan débute sur scène en 1961 dans \"La Ronde\" puis joue à Broadway \"Mandingo\" et \"Blood, sweat and Stanley Poole\". Après plusieurs apparitions dans des séries télé (Naked City, Les Incorruptibles, etc.), il apparaît pour la première fois au cinéma dans Irma la Douce (1963) de Billy Wilder et après un passage remarqué dans deux longs métrages de Howard Hawks (Ligne rouge 7000 (1965) et El Dorado (1967) aux côtés de John Wayne), il se retrouve en tête d\'affiche des Gens de la pluie (1969) de Francis Ford Coppola.', '26', 'mars', '1939', 'Le Bronx (NY)', 'Américaine');
 
 -- --------------------------------------------------------
 
@@ -99,7 +112,6 @@ CREATE TABLE `tbl_films` (
   `titre` varchar(27) DEFAULT NULL,
   `description` varchar(1035) DEFAULT NULL,
   `annee_de_sortie` int(4) DEFAULT NULL,
-  `id_genres` varchar(10) DEFAULT NULL,
   `id_realisateurs` varchar(17) DEFAULT NULL,
   `bande_annonce` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
@@ -108,19 +120,23 @@ CREATE TABLE `tbl_films` (
 -- Contenu de la table `tbl_films`
 --
 
-INSERT INTO `tbl_films` (`id`, `titre`, `description`, `annee_de_sortie`, `id_genres`, `id_realisateurs`, `bande_annonce`) VALUES
-(1, 'Avatar', 'Malgré sa paralysie, Jake Sully, un ancien marine immobilisé dans un fauteuil roulant, est resté un combattant au plus profond de son être. Il est recruté pour se rendre à des années-lumière de la Terre, sur Pandora, où de puissants groupes industriels exploitent un minerai rarissime destiné à résoudre la crise énergétique sur Terre. Parce que l\'atmosphère de Pandora est toxique pour les humains, ceux-ci ont créé le Programme Avatar, qui permet à des \" pilotes \" humains de lier leur esprit à un avatar, un corps biologique commandé à distance, capable de survivre dans cette atmosphère létale. Ces avatars sont des hybrides créés génétiquement en croisant l\'ADN humain avec celui des Na\'vi, les autochtones de Pandora.', 2009, '', '1', 'https://www.youtube.com/embed/O1CzgULNRGs'),
-(2, 'Titanic', 'Southampton, 10 avril 1912. Le paquebot le plus grand et le plus moderne du monde, réputé pour son insubmersibilité, le \"Titanic\", appareille pour son premier voyage. Quatre jours plus tard, il heurte un iceberg. A son bord, un artiste pauvre et une grande bourgeoise tombent amoureux.', 1997, '', '1', 'https://www.youtube.com/embed/Quf4qIkD3KY'),
-(3, 'Black Panther', 'Après les événements qui se sont déroulés dans Captain America : Civil War, T’Challa revient chez lui prendre sa place sur le trône du Wakanda, une nation africaine technologiquement très avancée. Mais lorsqu’un vieil ennemi resurgit, le courage de T’Challa est mis à rude épreuve, aussi bien en tant que souverain qu’en tant que Black Panther. Il se retrouve entraîné dans un conflit qui menace non seulement le destin du Wakanda, mais celui du monde entier…', 2018, '', '2', 'https://www.youtube.com/embed/vEFTbIh8Ki8'),
-(4, 'La ligne verte', 'Paul Edgecomb, pensionnaire centenaire d\'une maison de retraite, est hanté par ses souvenirs. Gardien-chef du pénitencier de Cold Mountain en 1935, il était chargé de veiller au bon déroulement des exécutions capitales en s’efforçant d\'adoucir les derniers moments des condamnés. Parmi eux se trouvait un colosse du nom de John Coffey, accusé du viol et du meurtre de deux fillettes. Intrigué par cet homme candide et timide aux dons magiques, Edgecomb va tisser avec lui des liens très forts.', 2000, '', '3', 'https://www.youtube.com/embed/xYM4wJJpR9M'),
-(5, 'Interstellar', 'Le film raconte les aventures d’un groupe d’explorateurs qui utilisent une faille récemment découverte dans l’espace-temps afin de repousser les limites humaines et partir à la conquête des distances astronomiques dans un voyage interstellaire. ', 2014, '', '4', 'https://www.youtube.com/embed/USns-G2mxoc'),
-(6, 'Alien  le huitième passager', 'Le vaisseau commercial Nostromo et son équipage, sept hommes et femmes, rentrent sur Terre avec une importante cargaison de minerai. Mais lors d\'un arrêt forcé sur une planète déserte, l\'officier Kane se fait agresser par une forme de vie inconnue, une arachnide qui étouffe son visage.\nAprès que le docteur de bord lui retire le spécimen, l\'équipage retrouve le sourire et dîne ensemble. Jusqu\'à ce que Kane, pris de convulsions, voit son abdomen perforé par un corps étranger vivant, qui s\'échappe dans les couloirs du vaisseau...', 1979, '', '5', 'https://www.youtube.com/embed/cL5aAtL6Tok'),
-(7, 'Les évadés', 'En 1947, Andy Dufresne, un jeune banquier, est condamné à la prison à vie pour le meurtre de sa femme et de son amant. Ayant beau clamer son innocence, il est emprisonné à Shawshank, le pénitencier le plus sévère de l\'Etat du Maine. Il y fait la rencontre de Red, un Noir désabusé, détenu depuis vingt ans. Commence alors une grande histoire d\'amitié entre les deux hommes...', 1994, '', '3', 'https://www.youtube.com/embed/2e8Otbbcowc'),
-(8, 'Forrest Gump', 'Le film débute par la scène où une plume d\'oiseau, volant dans les airs, atterrit aux pieds de Forrest Gump, un jeune homme simplet, assis sur un banc dans la ville de Savannah, en Géorgie, attendant le bus. Au fil des différents interlocuteurs qui viennent s’asseoir tour à tour à côté de lui sur le banc, Forrest Gump va raconter la fabuleuse histoire de sa vie. Sa vie est à l\'image de la plume (que l\'on aperçoit au début et à la fin du film) qui se laisse porter par le vent, tout comme Forrest se laisse porter par les événements qu\'il traverse dans l\'Amérique de la seconde moitié du xxe siècle.', 1994, '', '7', 'https://www.youtube.com/embed/q2AP7dAeVhw'),
-(9, 'Arrête-moi si tu peux', 'Dans les années soixante, le jeune Frank Abagnale Jr. est passé maître dans l\'art de l\'escroquerie, allant jusqu\'à détourner 2,5 millions de dollars et à figurer sur les listes du FBI comme l\'un des dix individus les plus recherchés des Etats-Unis. Véritable caméléon, Frank revêt des identités aussi diverses que celles de pilote de ligne, de médecin, de professeur d\'université ou encore d\'assistant du procureur. Carl Hanratty, agent du FBI à l\'apparence stricte, fait de la traque de Frank Abagnale Jr. sa mission prioritaire, mais ce dernier reste pendant longtemps insaisissable...', 2002, '', '6', 'https://www.youtube.com/embed/DqMJuzY_RB4'),
-(10, 'Avengers infinity war', 'Père adoptif de Gamora et Nébula, Thanos a commencé à recueillir les six Pierres d\'Infinité : la Pierre du Pouvoir, la Pierre de l\'Espace, la Pierre de Réalité, la Pierre de l\'Âme, la Pierre du Temps et la Pierre de l\'Esprit. Son objectif est de réunir ces six artefacts sur le Gant d\'Infinité, forgé jadis par le nain Eitri sur Nidavellir, afin d\'utiliser leur immense puissance pour détruire la moitié de la population de l\'Univers et rétablir ainsi un certain équilibre. Dans sa quête le menant sur diverses planètes, la Terre, Knowhere et Vormir, Thanos est aidé par ses enfants adoptifs : Ebony Maw, Cull Obsidian, Corvus Glaive et Proxima Midnight. Face à cette nouvelle menace qui concerne l\'Univers entier, le groupe de super-héros des Avengers, divisé depuis 2 ans, doit se reformer, et s\'associer au Docteur Strange, aux Gardiens de la Galaxie et au peuple du Wakanda.', 2018, '', '7', 'https://www.youtube.com/embed/TLQeKn9Fce0'),
-(11, 'Gladiator', 'e général romain Maximus est le plus fidèle soutien de l\'empereur Marc Aurèle, qu\'il a conduit de victoire en victoire avec une bravoure et un dévouement exemplaires. Jaloux du prestige de Maximus, et plus encore de l\'amour que lui voue l\'empereur, le fils de MarcAurèle, Commode, s\'arroge brutalement le pouvoir, puis ordonne l\'arrestation du général et son exécution. Maximus échappe à ses assassins mais ne peut empêcher le massacre de sa famille. Capturé par un marchand d\'esclaves, il devient gladiateur et prépare sa vengeance.', 2000, '', '8', 'https://www.youtube.com/embed/pPSESBQq'),
-(12, 'La liste de Schindler', 'Evocation des années de guerre d\'Oskar Schindler, fils d\'industriel d\'origine autrichienne rentré à Cracovie en 1939 avec les troupes allemandes. Il va, tout au long de la guerre, protéger des juifs en les faisant travailler dans sa fabrique et en 1944 sauver huit cents hommes et trois cents femmes du camp d\'extermination de Auschwitz-Birkenau.', 1994, '', '9', 'https://www.youtube.com/embed/ExVa4y2zSIo');
+INSERT INTO `tbl_films` (`id`, `titre`, `description`, `annee_de_sortie`, `id_realisateurs`, `bande_annonce`) VALUES
+(1, 'Avatar', 'Malgré sa paralysie, Jake Sully, un ancien marine immobilisé dans un fauteuil roulant, est resté un combattant au plus profond de son être. Il est recruté pour se rendre à des années-lumière de la Terre, sur Pandora, où de puissants groupes industriels exploitent un minerai rarissime destiné à résoudre la crise énergétique sur Terre. Parce que l\'atmosphère de Pandora est toxique pour les humains, ceux-ci ont créé le Programme Avatar, qui permet à des \" pilotes \" humains de lier leur esprit à un avatar, un corps biologique commandé à distance, capable de survivre dans cette atmosphère létale. Ces avatars sont des hybrides créés génétiquement en croisant l\'ADN humain avec celui des Na\'vi, les autochtones de Pandora.', 2009, '1', 'https://www.youtube.com/embed/O1CzgULNRGs'),
+(2, 'Titanic', 'Southampton, 10 avril 1912. Le paquebot le plus grand et le plus moderne du monde, réputé pour son insubmersibilité, le \"Titanic\", appareille pour son premier voyage. Quatre jours plus tard, il heurte un iceberg. A son bord, un artiste pauvre et une grande bourgeoise tombent amoureux.', 1997, '1', 'https://www.youtube.com/embed/Quf4qIkD3KY'),
+(3, 'Black Panther', 'Après les événements qui se sont déroulés dans Captain America : Civil War, T’Challa revient chez lui prendre sa place sur le trône du Wakanda, une nation africaine technologiquement très avancée. Mais lorsqu’un vieil ennemi resurgit, le courage de T’Challa est mis à rude épreuve, aussi bien en tant que souverain qu’en tant que Black Panther. Il se retrouve entraîné dans un conflit qui menace non seulement le destin du Wakanda, mais celui du monde entier…', 2018, '2', 'https://www.youtube.com/embed/vEFTbIh8Ki8'),
+(4, 'La ligne verte', 'Paul Edgecomb, pensionnaire centenaire d\'une maison de retraite, est hanté par ses souvenirs. Gardien-chef du pénitencier de Cold Mountain en 1935, il était chargé de veiller au bon déroulement des exécutions capitales en s’efforçant d\'adoucir les derniers moments des condamnés. Parmi eux se trouvait un colosse du nom de John Coffey, accusé du viol et du meurtre de deux fillettes. Intrigué par cet homme candide et timide aux dons magiques, Edgecomb va tisser avec lui des liens très forts.', 2000, '3', 'https://www.youtube.com/embed/xYM4wJJpR9M'),
+(5, 'Interstellar', 'Le film raconte les aventures d’un groupe d’explorateurs qui utilisent une faille récemment découverte dans l’espace-temps afin de repousser les limites humaines et partir à la conquête des distances astronomiques dans un voyage interstellaire. ', 2014, '4', 'https://www.youtube.com/embed/USns-G2mxoc'),
+(6, 'Alien  le huitième passager', 'Le vaisseau commercial Nostromo et son équipage, sept hommes et femmes, rentrent sur Terre avec une importante cargaison de minerai. Mais lors d\'un arrêt forcé sur une planète déserte, l\'officier Kane se fait agresser par une forme de vie inconnue, une arachnide qui étouffe son visage.\nAprès que le docteur de bord lui retire le spécimen, l\'équipage retrouve le sourire et dîne ensemble. Jusqu\'à ce que Kane, pris de convulsions, voit son abdomen perforé par un corps étranger vivant, qui s\'échappe dans les couloirs du vaisseau...', 1979, '5', 'https://www.youtube.com/embed/cL5aAtL6Tok'),
+(7, 'Les évadés', 'En 1947, Andy Dufresne, un jeune banquier, est condamné à la prison à vie pour le meurtre de sa femme et de son amant. Ayant beau clamer son innocence, il est emprisonné à Shawshank, le pénitencier le plus sévère de l\'Etat du Maine. Il y fait la rencontre de Red, un Noir désabusé, détenu depuis vingt ans. Commence alors une grande histoire d\'amitié entre les deux hommes...', 1994, '3', 'https://www.youtube.com/embed/2e8Otbbcowc'),
+(8, 'Forrest Gump', 'Le film débute par la scène où une plume d\'oiseau, volant dans les airs, atterrit aux pieds de Forrest Gump, un jeune homme simplet, assis sur un banc dans la ville de Savannah, en Géorgie, attendant le bus. Au fil des différents interlocuteurs qui viennent s’asseoir tour à tour à côté de lui sur le banc, Forrest Gump va raconter la fabuleuse histoire de sa vie. Sa vie est à l\'image de la plume (que l\'on aperçoit au début et à la fin du film) qui se laisse porter par le vent, tout comme Forrest se laisse porter par les événements qu\'il traverse dans l\'Amérique de la seconde moitié du xxe siècle.', 1994, '7', 'https://www.youtube.com/embed/q2AP7dAeVhw'),
+(9, 'Arrête-moi si tu peux', 'Dans les années soixante, le jeune Frank Abagnale Jr. est passé maître dans l\'art de l\'escroquerie, allant jusqu\'à détourner 2,5 millions de dollars et à figurer sur les listes du FBI comme l\'un des dix individus les plus recherchés des Etats-Unis. Véritable caméléon, Frank revêt des identités aussi diverses que celles de pilote de ligne, de médecin, de professeur d\'université ou encore d\'assistant du procureur. Carl Hanratty, agent du FBI à l\'apparence stricte, fait de la traque de Frank Abagnale Jr. sa mission prioritaire, mais ce dernier reste pendant longtemps insaisissable...', 2002, '6', 'https://www.youtube.com/embed/DqMJuzY_RB4'),
+(10, 'Avengers infinity war', 'Père adoptif de Gamora et Nébula, Thanos a commencé à recueillir les six Pierres d\'Infinité : la Pierre du Pouvoir, la Pierre de l\'Espace, la Pierre de Réalité, la Pierre de l\'Âme, la Pierre du Temps et la Pierre de l\'Esprit. Son objectif est de réunir ces six artefacts sur le Gant d\'Infinité, forgé jadis par le nain Eitri sur Nidavellir, afin d\'utiliser leur immense puissance pour détruire la moitié de la population de l\'Univers et rétablir ainsi un certain équilibre. Dans sa quête le menant sur diverses planètes, la Terre, Knowhere et Vormir, Thanos est aidé par ses enfants adoptifs : Ebony Maw, Cull Obsidian, Corvus Glaive et Proxima Midnight. Face à cette nouvelle menace qui concerne l\'Univers entier, le groupe de super-héros des Avengers, divisé depuis 2 ans, doit se reformer, et s\'associer au Docteur Strange, aux Gardiens de la Galaxie et au peuple du Wakanda.', 2018, '7', 'https://www.youtube.com/embed/TLQeKn9Fce0'),
+(11, 'Gladiator', 'e général romain Maximus est le plus fidèle soutien de l\'empereur Marc Aurèle, qu\'il a conduit de victoire en victoire avec une bravoure et un dévouement exemplaires. Jaloux du prestige de Maximus, et plus encore de l\'amour que lui voue l\'empereur, le fils de MarcAurèle, Commode, s\'arroge brutalement le pouvoir, puis ordonne l\'arrestation du général et son exécution. Maximus échappe à ses assassins mais ne peut empêcher le massacre de sa famille. Capturé par un marchand d\'esclaves, il devient gladiateur et prépare sa vengeance.', 2000, '8', 'https://www.youtube.com/embed/pPSESBQq'),
+(12, 'La liste de Schindler', 'Evocation des années de guerre d\'Oskar Schindler, fils d\'industriel d\'origine autrichienne rentré à Cracovie en 1939 avec les troupes allemandes. Il va, tout au long de la guerre, protéger des juifs en les faisant travailler dans sa fabrique et en 1944 sauver huit cents hommes et trois cents femmes du camp d\'extermination de Auschwitz-Birkenau.', 1994, '9', 'https://www.youtube.com/embed/ExVa4y2zSIo'),
+(13, 'Bohemian Rapsody', 'Bohemian Rhapsody retrace le destin extraordinaire du groupe Queen et de leur chanteur emblématique Freddie Mercury, qui a défié les stéréotypes, brisé les conventions et révolutionné la musique. Du succès fulgurant de Freddie Mercury à ses excès, risquant la quasi-implosion du groupe, jusqu’à son retour triomphal sur scène lors du concert Live Aid, alors qu’il était frappé par la maladie, découvrez la vie exceptionnelle d’un homme qui continue d’inspirer les outsiders, les rêveurs et tous ceux qui aiment la musique.', 2018, NULL, 'https://www.youtube.com/embed/hIr5bjCObtc'),
+(14, 'Coco', 'Depuis déjà plusieurs générations, la musique est bannie dans la famille de Miguel. Un vrai déchirement pour le jeune garçon dont le rêve ultime est de devenir un musicien aussi accompli que son idole, Ernesto de la Cruz. \r\nBien décidé à prouver son talent, Miguel, par un étrange concours de circonstances, se retrouve propulsé dans un endroit aussi étonnant que coloré : le Pays des Morts. Là, il se lie d’amitié avec Hector, un gentil garçon mais un peu filou sur les bords. Ensemble, ils vont accomplir un voyage extraordinaire qui leur révèlera la véritable histoire qui se cache derrière celle de la famille de Miguel…', 2017, NULL, 'https://www.youtube.com/embed/N3chVJm1XYI'),
+(15, 'Your name', 'Mitsuha, adolescente coincée dans une famille traditionnelle, rêve de quitter ses montagnes natales pour découvrir la vie trépidante de Tokyo. Elle est loin d’imaginer pouvoir vivre l’aventure urbaine dans la peau de… Taki, un jeune lycéen vivant à Tokyo, occupé entre son petit boulot dans un restaurant italien et ses nombreux amis. À travers ses rêves, Mitsuha se voit littéralement propulsée dans la vie du jeune garçon au point qu’elle croit vivre la réalité... Tout bascule lorsqu’elle réalise que Taki rêve également d’une vie dans les montagnes, entouré d’une famille traditionnelle… dans la peau d’une jeune fille ! Une étrange relation s’installe entre leurs deux corps qu’ils accaparent mutuellement. Quel mystère se cache derrière ces rêves étranges qui unissent deux destinées que tout oppose et qui ne se sont jamais rencontrées ?', 2016, NULL, 'https://www.youtube.com/embed/AROOK45LXXg'),
+(16, 'Le parrain', 'En 1945, à New York, les Corleone sont une des cinq familles de la mafia. Don Vito Corleone, \"parrain\" de cette famille, marie sa fille à un bookmaker. Sollozzo, \" parrain \" de la famille Tattaglia, propose à Don Vito une association dans le trafic de drogue, mais celui-ci refuse. Sonny, un de ses fils, y est quant à lui favorable.\r\nAfin de traiter avec Sonny, Sollozzo tente de faire tuer Don Vito, mais celui-ci en réchappe. Michael, le frère cadet de Sonny, recherche alors les commanditaires de l\'attentat et tue Sollozzo et le chef de la police, en représailles.\r\nMichael part alors en Sicile, où il épouse Apollonia, mais celle-ci est assassinée à sa place. De retour à New York, Michael épouse Kay Adams et se prépare à devenir le successeur de son père...', 1972, NULL, 'https://www.youtube.com/embed/ktCk487JeMw');
 
 -- --------------------------------------------------------
 
@@ -185,7 +201,21 @@ INSERT INTO `tbl_films_acteurs` (`id_film`, `id_acteur`) VALUES
 (12, 41),
 (12, 42),
 (12, 43),
-(12, 44);
+(12, 44),
+(13, 45),
+(13, 46),
+(13, 47),
+(13, 48),
+(14, 49),
+(14, 50),
+(14, 51),
+(15, 52),
+(15, 52),
+(15, 53),
+(15, 54),
+(16, 55),
+(16, 56),
+(16, 57);
 
 -- --------------------------------------------------------
 
@@ -238,28 +268,36 @@ CREATE TABLE `tbl_genre_films` (
 
 INSERT INTO `tbl_genre_films` (`id_genres`, `id_films`) VALUES
 (1, 1),
-(2, 1),
-(15, 1),
-(6, 2),
-(11, 2),
-(14, 2),
-(15, 3),
-(9, 4),
-(13, 4),
-(15, 5),
-(6, 5),
-(15, 6),
-(7, 6),
-(6, 7),
-(6, 8),
-(14, 8),
-(6, 9),
-(16, 9),
 (1, 10),
+(2, 1),
 (3, 10),
 (3, 11),
+(6, 2),
+(6, 5),
+(6, 7),
+(6, 8),
+(6, 9),
+(7, 6),
+(9, 4),
 (10, 12),
-(11, 12);
+(11, 2),
+(11, 12),
+(13, 4),
+(15, 1),
+(15, 3),
+(15, 5),
+(15, 6),
+(16, 9),
+(14, 2),
+(14, 8),
+(6, 13),
+(4, 13),
+(2, 14),
+(9, 14),
+(2, 15),
+(9, 15),
+(13, 16),
+(6, 16);
 
 -- --------------------------------------------------------
 
@@ -292,7 +330,12 @@ INSERT INTO `tbl_realisateurs` (`id_realisateur`, `prenom_realisateur`, `nom_rea
 (6, 'Steven', 'Spielberg', 'Steven Spielberg est un réalisateur, scénariste et producteur de cinéma américain. Issu de la deuxième génération du Nouvel Hollywood dans les années 1970, il réalise le premier blockbuster de l\'histoire du cinéma : Les Dents de la mer. Il enchaîne les succès (E.T., l\'extra-terrestre, série Indiana Jones, Jurassic Park, Ready Player One) tout en développant ses activités de gestionnaire. Fondateur de la société de production Amblin Entertainment et cofondateur du studio DreamWorks SKG, il produit de nombreux films à succès (Poltergeist, Gremlins, Retour vers le futur, Qui veut la peau de Roger Rabbit ou encore la trilogie Men in Black et Transformers). Il a également financé et distribué des œuvres plus exigeantes ou moins grand public telles que Lettres d\'Iwo Jima de Clint Eastwood, American Beauty de Sam Mendes et Hollywood Ending de Woody Allen.', '18', 'décembre', '1946', 'Cincinnati (Ohio)', 'Américaine'),
 (7, 'Robert', 'Zemeckis', 'Robert Lee Zemeckis est un réalisateur, producteur et scénariste américainIssu de la deuxième génération du Nouvel Hollywood dans les années 1970, il réalise le premier blockbuster de l\'histoire du cinéma : Les Dents de la mer. Il enchaîne les succès (E.T., l\'extra-terrestre, série Indiana Jones, Jurassic Park, Ready Player One) tout en développant ses activités de gestionnaire. Fondateur de la société de production Amblin Entertainment et cofondateur du studio DreamWorks SKG, il produit de nombreux films à succès (Poltergeist, Gremlins, Retour vers le futur, Qui veut la peau de Roger Rabbit ou encore la trilogie Men in Black et Transformers). Il a également financé et distribué des œuvres plus exigeantes ou moins grand public telles que Lettres d\'Iwo Jima de Clint Eastwood, American Beauty de Sam Mendes et Hollywood Ending de Woody Allen.. ', '14', 'mai', '1952', 'Chicago (Illinois)', 'Américaine'),
 (8, 'Anthony', 'Russo', 'Anthony et Joe Russo sont deux frères réalisateurs et scénaristes américains. Ils ont travaillé sur plusieurs séries télévisées. En 2014 et 2016, ils réalisent respectivement Captain America : Le Soldat de l\'hiver et Captain America: Civil War, les deux suites du film Captain America: First Avenger sorti en 2011 ainsi que Avengers: Infinity War troisième opus réunissant l\'équipe de super-héros des Avengers, sorti en 2018.', '3', 'février', '1970', 'Cleveland (Ohio)', 'Américaine'),
-(9, 'Joe', 'Russo', 'Joe Russo est un  réalisateur et scénariste américain né le 8 juillet 1971 (47 ans) à Cleveland, Ohio.', '8', 'juillet', '1971', 'Cleveland (Ohio)', 'Américaine');
+(9, 'Joe', 'Russo', 'Joe Russo est un  réalisateur et scénariste américain né le 8 juillet 1971 (47 ans) à Cleveland, Ohio.', '8', 'juillet', '1971', 'Cleveland (Ohio)', 'Américaine'),
+(10, 'Bryan ', 'Singer', 'Diplômé en 1989 de l\'USC School of Cinema-Television où il rencontre le compositeur John Ottman, Bryan Singer réalise son premier film en 1993, le thriller Public access récompensé aux Festivals de Sundance et Deauvile. Bryan a écrit ce film avec son ami d\'enfance, Christopher McQuarrie. \r\n\r\nDeux ans après, les deux hommes collaborent à nouveau et se font connaitre aux yeux du grand public avec Usual suspects, diabolique thriller manipulateur tourné en 35 jours pour six millions de dollars, qui révèle Kevin Spacey. Lauréat de deux Oscars (meilleur second rôle masculin et meilleur scénario original), le film est aussi nommé au César du meilleur film étranger et repris à de nombreuses reprises dans les palmarès de l\'année des critiques américaines. ', '17', 'septembre', '1965', 'New York', 'Américaine'),
+(11, 'Adrian', 'Molina', 'Adrian Molina est un animateur, scénariste, scénariste et parolier américain. Il est chez Pixar depuis 2007, où il a commencé comme animateur 2D sur Ratatouille. Il est ensuite devenu un scénariste, travaillant sur Toy Story 3 et Monsters University. Après avoir écrit pour The Good Dinosaur, Molina a commencé sa première mission en tant que scénariste de scénario pour Coco, puis a ensuite co-dirigé le film. Molina a également illustré le Petit livre d\'or de Toy Story 3. [1]\r\n\r\nOriginaire du nord de la Californie, il a grandi à Grass Valley, en Californie. Il a obtenu son diplôme de la Bear River High School en 2003, puis est diplômé du California Institute of the Arts en 2007. Il est d\'origine mexicaine.', '23', 'août', '1985', 'Yuba City', 'Californiae'),
+(12, 'Lee', 'Unkrich', 'Diplômé de l\'école de cinéma de l\' USC (University of Southern California) en 1991, Lee Unkrich entame sa carrière dans le cinéma et la télévision en prises de vue réelles, travaillant notamment sur la série Les Dessous de Palm Beach. Arrivé en 1994 chez Pixar, il travaille comme monteur sur Toy Story en 1995, puis sur 1001 Pattes en 1998, pour lequel il assure également certaines voix additionnelles. Co-réalisateur, monteur et à nouveau voix additionnelles sur Toy Story 2 en 1999, Lee Unkrich co-signe Monstres & Cie en 2001. Deux ans plus tard, il coréalise avec Andrew Stanton, Le Monde de Nemo, certifié plus grand succès de l\'histoire de l\'animation quelques semaines après sa sortie. L\'année 2010 représente un tournant important dans sa carrière, puisqu\'il est nommé à la tête de la réalisation de Toy Story 3, le troisième volet des aventures des célèbres jouets animés.', '8', 'août', '1967', 'Cleveland', 'Ohio'),
+(13, 'Makoto ', 'Shinkai', 'Makoto Shinkai (新海 誠, Shinkai Makoto) est un réalisateur de film d\'animation japonais, doubleur pour ses films et graphiste de jeux vidéo. Originaire de la préfecture de Nagano1, il a étudié la littérature japonaise à l’Université Chūō. Sa passion pour la création remonte aux mangas, anime et romans qu’il lisait au collège. Son anime préféré est Le Château dans le ciel de Hayao Miyazaki. Shinkai a été appelé le nouveau Miyazaki dans plusieurs revues dont Anime Advocates et ActiveAnime, bien qu’il soit en désaccord avec cette comparaison, affirmant que cela « le surestime ».', '9', 'février', '1973', 'Koumi (Nagano)', 'Japon'),
+(14, 'Francis Ford', 'Coppola', 'Atteint à l\'âge de dix ans de la poliomyélite et perdant ainsi l\'usage de son bras gauche, Francis Ford Coppola apprend très vite à développer son imagination : durant sa convalescence, il met en scène des marionnettes, regarde beaucoup la télévision et réalise ses premiers films amateurs en 8mm. En 1960, il entre au département cinéma de l\'UCLA (University of California, Los Angeles). Trois ans plus tard, Roger Corman lui confie la seconde équipe technique sur le tournage de The Young Racers, et lui permet par la même occasion de réaliser son premier long métrage : Dementia 13.\r\n\r\nEn 1966, il entre dans la compagnie Seven Arts et écrit plusieurs scénarios dont Propriété interdite de Sydney Pollack et Paris brûle-t-il ? de René Clément. Il contribue également à l\'écriture de Patton de Franklin J. Schaffner, qui lui vaut l\'Oscar du Meilleur scénario en 1971.', '7', 'avril', '1939', 'Detroit (Michigan)', 'Américaine');
 
 -- --------------------------------------------------------
 
@@ -322,7 +365,12 @@ INSERT INTO `tbl_realisateurs_films` (`id_realisateurs`, `id_films`) VALUES
 (8, 10),
 (9, 10),
 (5, 11),
-(6, 12);
+(6, 12),
+(13, 15),
+(14, 16),
+(11, 14),
+(12, 14),
+(10, 13);
 
 --
 -- Index pour les tables exportées
@@ -338,7 +386,8 @@ ALTER TABLE `tbl_acteurs`
 -- Index pour la table `tbl_films`
 --
 ALTER TABLE `tbl_films`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `id` (`id`);
 
 --
 -- Index pour la table `tbl_genre`
@@ -360,22 +409,22 @@ ALTER TABLE `tbl_realisateurs`
 -- AUTO_INCREMENT pour la table `tbl_acteurs`
 --
 ALTER TABLE `tbl_acteurs`
-  MODIFY `id_acteur` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
+  MODIFY `id_acteur` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=65;
 --
 -- AUTO_INCREMENT pour la table `tbl_films`
 --
 ALTER TABLE `tbl_films`
-  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 --
 -- AUTO_INCREMENT pour la table `tbl_genre`
 --
 ALTER TABLE `tbl_genre`
-  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 --
 -- AUTO_INCREMENT pour la table `tbl_realisateurs`
 --
 ALTER TABLE `tbl_realisateurs`
-  MODIFY `id_realisateur` int(2) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id_realisateur` int(2) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

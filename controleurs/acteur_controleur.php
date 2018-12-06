@@ -11,7 +11,7 @@ function actDetail() {
     global $twig,$base_url, $id;
     if ($id !=0) {
         $details = bdd_actDetail($id);
-    } elseif ($id < 1 || $id > 44) {
+    } elseif ($id < 1 || $id > 60) {
         $details = bdd_actDetail(1);
     }
     echo $twig->render('acteur.twig', array('details' => $details, "base_url" => $base_url));

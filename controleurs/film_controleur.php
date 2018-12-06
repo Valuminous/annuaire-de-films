@@ -1,5 +1,5 @@
 <?php
-$maxFilm = 12;
+$maxFilm = 16;
 $select = false;
 $isGenre = false;
 $isList = false;

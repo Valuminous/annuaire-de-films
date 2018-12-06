@@ -13,7 +13,7 @@ function realDetail() {
     
         if ($id !=0) {
             $details = bdd_realDetail($id);
-        } elseif ($id < 1 || $id > 9) {
+        } elseif ($id < 1 || $id > 15) {
             $details = bdd_realDetail(1);          
         }
     echo $twig->render('realisateur.twig',array('details' => $details, "base_url" => $base_url));
